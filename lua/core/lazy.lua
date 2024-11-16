@@ -44,6 +44,18 @@ require("lazy").setup({
 	{
 	'nvimtools/none-ls.nvim'
 		},
+	{
+	'windwp/nvim-autopairs', event = "InsertEnter", config = true,
+		},
+	{
+	'lewis6991/gitsigns.nvim'
+		},
+	{
+	'akinsho/toggleterm.nvim', version = "*", config = true,
+		},
+	{
+	'akinsho/bufferline.nvim', requires = 'nvim-tree/nvim-web-devicons'
+		},
 	},
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.

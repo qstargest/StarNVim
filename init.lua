@@ -4,10 +4,14 @@ require('core.mappings')
 require('core.configs')
 
 -- Plugins
+require('plugins.autopairs')
 require('plugins.neotree')
 require('plugins.treesitter')
 require('plugins.lsp')
 require('plugins.cmp')
+require('plugins.gitsigns')
+require('plugins.toggleterm')
+require('plugins.bufferline')
 require('plugins.mason')
 require('plugins.none_ls')
 
