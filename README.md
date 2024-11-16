@@ -30,32 +30,35 @@
 ```sh
 cd .config
 ```
-<details><summary>If you don't have .config<summary>
-        ```sh 
-        mkdir .config
-        ```
-</details>
-    
+<details><summary>If you don't have .config</summary>
+
+```sh
+mkdir .config
+```
+</details> 
 <details><summary>If you have nvim directory in .config</summary>
 <b>Create backup of your current nvim config</b>
-        ```sh
-        mv nvim nvim.bak
-        mv ~/.local/share/nvim ~/.local/share/nvim.bak
-        ```
+
+ ```sh
+mv nvim nvim.bak
+mv ~/.local/share/nvim ~/.local/share/nvim.bak
+```
 </details>
 
 <details><summary>If you don't have nvim in your .config</summary>
-        ```sh
-        mkdir nvim
-        ```
+
+```sh
+mkdir nvim
+```
 </details>
 
 <details><summary>Installation</summary>
-        ```sh
-        git clone https://github.com/qstargest/StarNVim.git nvim
-        cd 
-        nvim
-        ```
+ 
+```sh
+git clone https://github.com/qstargest/StarNVim.git
+cd
+nvim
+```
 </details>
 
 <b>>Make sure you have installed this in Mason:</b>
