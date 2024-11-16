@@ -7,6 +7,7 @@ require('core.configs')
 require('plugins.neotree')
 require('plugins.treesitter')
 require('plugins.lsp')
+require('plugins.cmp')
 
 -- Theme
 vim.o.background = "dark"

@@ -37,6 +37,7 @@ require("lazy").setup({
 	{
 	'ellisonleao/gruvbox.nvim', priority = 1000, config = true,
 		},
+	{'hrsh7th/cmp-nvim-lsp'}, {'hrsh7th/cmp-buffer'}, {'hrsh7th/cmp-path'}, {'hrsh7th/cmp-cmdline'}, {'hrsh7th/nvim-cmp'},
 	},
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
