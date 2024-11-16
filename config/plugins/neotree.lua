@@ -10,3 +10,4 @@ config = function ()
         {text = "󰌵", texthl = "DiagnosticSignHint"})
 
       require("neo-tree").setup({})
+end
