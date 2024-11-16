@@ -9,6 +9,7 @@ require('plugins.treesitter')
 require('plugins.lsp')
 require('plugins.cmp')
 require('plugins.mason')
+require('plugins.none_ls')
 
 -- Theme
 vim.o.background = "dark"
