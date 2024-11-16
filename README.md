@@ -55,7 +55,7 @@ mkdir nvim
 <details><summary>Installation</summary>
  
 ```sh
-git clone https://github.com/qstargest/StarNVim.git nvim
+git clone https://github.com/qstargest/StarNVim.git
 cd
 nvim
 ```
