@@ -3,7 +3,7 @@ vim.g.mapleader = " "
 -- NeoTree
 vim.keymap.set('n', '<leader>n', ':Neotree <CR>')
 
--- Null_ls
+-- None_ls
 vim.keymap.set('n', '<leader>gf', vim.lsp.buf.format, {})
 
 -- Bufferline
@@ -13,4 +13,10 @@ vim.keymap.set('n', '<Tab>', ':BufferLineCycleNext<CR>')
 vim.keymap.set('n', '<s-Tab>', ':BufferLineCyclePrev<CR>')
 
 -- Splits
-vim.keymap.set('n', '|', ':vsplit<CR>')
+-- vim.keymap.set('n', '|', ':vsplit<CR>')
+
+-- Save file
+vim.keymap.set('n', '<leader>w', ':w<CR>')
+
+-- Quit without save
+vim.keymap.set('n', '<leader>q', ':q!<CR>')
