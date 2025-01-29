@@ -1,5 +1,5 @@
 # StarNVim
-<div><img src="/.other/old-screenshot.png"></div>
+<div><img src="/.other/screenshot.png"></div>
 
 <h4 align="center">My personal NeoVim configuration with the TokyoNight theme, focused on Python development</h4>
 
