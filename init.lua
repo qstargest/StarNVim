@@ -17,5 +17,5 @@ require('plugins.none_ls')
 
 -- Theme
 vim.o.background = "dark"
-require('core.gruvbox_theme')
-vim.cmd([[colorscheme gruvbox]])
+-- require('core.gruvbox_theme')
+vim.cmd([[colorscheme tokyonight-night]])

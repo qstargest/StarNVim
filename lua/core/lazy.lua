@@ -35,7 +35,7 @@ require("lazy").setup({
 	'neovim/nvim-lspconfig'
 		},
 	{
-	'ellisonleao/gruvbox.nvim', priority = 1000, config = true,
+	'folke/tokyonight.nvim', lazy = false, priority = 1000, opts = {},
 		},
 	{'hrsh7th/cmp-nvim-lsp'}, {'hrsh7th/cmp-buffer'}, {'hrsh7th/cmp-path'}, {'hrsh7th/cmp-cmdline'}, {'hrsh7th/nvim-cmp'},
 	{
@@ -59,7 +59,7 @@ require("lazy").setup({
 	},
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
-  install = { colorscheme = { "gruvbox" } },
+  install = { colorscheme = { "tokyonight-night" } },
   -- automatically check for plugin updates
   checker = { enabled = true },
 })
